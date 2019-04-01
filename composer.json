@@ -1,0 +1,19 @@
+{
+    "name": "wcs/quete_composer",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "Florent Duval",
+            "email": "florent3300047@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ehime/hello-world": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\wcs\\":"src/wcs"
+        }
+    }
+}
